@@ -1,0 +1,37 @@
+{
+    "name": "anomaly/bitbucket-extension",
+    "type": "streams-addon",
+    "description": "Bitbucket API authorization and integration.",
+    "keywords": [
+        "streams addon",
+        "bitbucket api"
+    ],
+    "homepage": "http://pyrocms.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PyroCMS, Inc.",
+            "email": "support@pyrocms.com",
+            "homepage": "http://pyrocms.com/",
+            "role": "Owner"
+        },
+        {
+            "name": "Ryan Thompson",
+            "email": "ryan@pyrocms.com",
+            "homepage": "http://ryanthepyro.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@pyrocms.com"
+    },
+    "require": {
+        "bitbucket/client": "^1.1",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\BitbucketExtension\\": "src/"
+        }
+    }
+}
