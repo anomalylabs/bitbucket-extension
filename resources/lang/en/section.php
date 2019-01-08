@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'personal_access_token' => [
-        'title'       => 'Personal Access Token',
-        'description' => 'You can generate a new token at <a href="https://bitbucket.com/settings/tokens" target="_blank">GitHub</a>.',
+    'bitbucket_credentials' => [
+        'title'       => 'Bitbucket Credentials',
+        'description' => 'Please provide your <a href="https://bitbucket.com/" target="_blank">Bitbucket</a> authentication.',
     ],
 ];

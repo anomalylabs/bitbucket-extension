@@ -35,7 +35,7 @@ class BitbucketExtensionServiceProvider extends AddonServiceProvider
     {
 
         /**
-         * Setup our pre-configured GitHub client instance alias.
+         * Setup our pre-configured Bitbucket client instance alias.
          */
         if ($token = $config->get('anomaly.extension.bitbucket::bitbucket.token')) {
             $this->app->singleton(

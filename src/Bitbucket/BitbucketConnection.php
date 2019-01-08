@@ -17,7 +17,7 @@ class BitbucketConnection
 {
 
     /**
-     * The GitHub connection.
+     * The Bitbucket connection.
      *
      * @var Client
      */

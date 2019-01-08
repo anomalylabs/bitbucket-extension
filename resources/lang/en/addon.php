@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title'       => 'GitHub',
-    'name'        => 'GitHub Extension',
-    'description' => 'GitHub API authorization and integration.',
+    'title'       => 'Bitbucket',
+    'name'        => 'Bitbucket Extension',
+    'description' => 'Bitbucket API authorization and integration.',
 ];

@@ -1,10 +1,16 @@
 <?php
 
 return [
-    'token' => [
+    'username' => [
         'required' => true,
-        'env'      => 'GITHUB_TOKEN',
+        'env'      => 'BITBUCKET_USERNAME',
+        'type'     => 'anomaly.field_type.text',
+        'bind'     => 'anomaly.extension.bitbucket::bitbucket.username',
+    ],
+    'password' => [
+        'required' => true,
+        'env'      => 'BITBUCKET_PASSWORD',
         'type'     => 'anomaly.field_type.encrypted',
-        'bind'     => 'anomaly.extension.bitbucket::bitbucket.token',
+        'bind'     => 'anomaly.extension.bitbucket::bitbucket.password',
     ],
 ];

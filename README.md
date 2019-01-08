@@ -1,3 +1,3 @@
-# GitHub Extension
+# Bitbucket Extension
 
-GitHub API authorization and integration.
+Bitbucket API authorization and integration.

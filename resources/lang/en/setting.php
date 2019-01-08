@@ -1,7 +1,10 @@
 <?php
 
 return [
-    'token' => [
-        'name' => 'Token',
+    'username' => [
+        'name' => 'Username',
+    ],
+    'password' => [
+        'name' => 'Password',
     ],
 ];

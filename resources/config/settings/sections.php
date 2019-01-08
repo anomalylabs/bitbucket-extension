@@ -1,11 +1,12 @@
 <?php
 
 return [
-    'personal_access_token' => [
-        'title'       => 'anomaly.extension.bitbucket::section.personal_access_token.title',
-        'description' => 'anomaly.extension.bitbucket::section.personal_access_token.description',
+    'bitbucket_credentials' => [
+        'title'       => 'anomaly.extension.bitbucket::section.bitbucket_credentials.title',
+        'description' => 'anomaly.extension.bitbucket::section.bitbucket_credentials.description',
         'fields'      => [
-            'token',
+            'username',
+            'password',
         ],
     ],
 ];
