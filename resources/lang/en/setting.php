@@ -5,6 +5,6 @@ return [
         'name' => 'Username',
     ],
     'password' => [
-        'name' => 'Password',
+        'name' => 'App Password',
     ],
 ];

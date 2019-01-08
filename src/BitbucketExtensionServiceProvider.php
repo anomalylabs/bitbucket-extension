@@ -34,17 +34,21 @@ class BitbucketExtensionServiceProvider extends AddonServiceProvider
     public function boot(Repository $config)
     {
 
+        $username = $config->get('anomaly.extension.bitbucket::bitbucket.username');
+        $password = $config->get('anomaly.extension.bitbucket::bitbucket.password');
+
         /**
          * Setup our pre-configured Bitbucket client instance alias.
          */
-        if ($token = $config->get('anomaly.extension.bitbucket::bitbucket.token')) {
+        if ($username && $password) {
+
             $this->app->singleton(
                 BitbucketConnection::class,
-                function () use ($token) {
+                function () use ($username, $password) {
 
                     $client = new Client();
 
-                    $client->authenticate($token, null, 'http_token');
+                    $client->authenticate(Client::AUTH_HTTP_PASSWORD, $username, $password);
 
                     return new BitbucketConnection($client);
                 }

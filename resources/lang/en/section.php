@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'bitbucket_credentials' => [
-        'title'       => 'Bitbucket Credentials',
-        'description' => 'Please provide your <a href="https://bitbucket.com/" target="_blank">Bitbucket</a> authentication.',
+    'bitbucket_authentication' => [
+        'title'       => 'Bitbucket Authentication',
+        'description' => 'You can generate an <strong>App Password</strong> at <a href="https://bitbucket.org/account" target="_blank">Bitbucket</a>.',
     ],
 ];

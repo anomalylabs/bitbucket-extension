@@ -1,6 +1,5 @@
 <?php namespace Anomaly\BitbucketExtension\Bitbucket;
 
-use Abraham\BitbucketOAuth\BitbucketOAuth;
 use Bitbucket\Client;
 
 /**
